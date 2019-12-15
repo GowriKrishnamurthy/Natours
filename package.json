@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "description": "Advanced CSS and Sass",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
   "devDependencies": {
     "node-sass": "^4.13.0"
   },
   "scripts": {
-    "compile:sass":"node-sass sass/main.scss css/style.css -w"
-    },
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GowriKrishnamurthy/Natours.git"
